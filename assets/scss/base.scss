@@ -1,0 +1,55 @@
+:root {
+  --primary-color: #8261ee;
+  --secondary-color: #ff589e;
+  --color-text: #1e1e1e;
+  --color-desc: #777;
+  --box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  --font: "Raleway", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font);
+  background: #fff;
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.btn-primary {
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 1.2rem 2rem;
+  background-color: #ff589e;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+a,
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: var(--color-text);
+}
+
+a:hover {
+  color: var(--secondary-color);
+  transition: 0.3s;
+}

@@ -16,7 +16,6 @@ body {
   background: #fff;
   color: var(--color-text);
   line-height: 1.6;
-  /* height: 10000px; */
 }
 
 .btn-primary {
@@ -54,3 +53,5 @@ a:hover {
   color: var(--secondary-color);
   transition: 0.3s;
 }
+
+/*# sourceMappingURL=base.css.map */

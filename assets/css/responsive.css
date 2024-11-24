@@ -1,20 +1,17 @@
 @media (max-width: 480px) {
   /* Header */
-  .header .inner-wrap {
+  .header__wrap {
     padding: 1rem 3rem;
     width: 95%;
   }
-
-  .header .inner-wrap .inner-content {
+  .header__content {
     display: none;
   }
-
-  .header .inner-wrap .inner-menu .menu-bar {
+  .header__menu {
     display: block;
   }
-
   /* ---------- Banner ---------- */
-  .banner .inner-wrap .inner-title {
+  .banner-main__title {
     font-size: 2.4rem;
     font-weight: 500;
     line-height: 4rem;
@@ -22,78 +19,66 @@
     margin-bottom: 30px;
     letter-spacing: 1.2px;
   }
-
-  .banner .inner-wrap .desc {
+  .banner-main__desc {
     font-size: 1.2rem;
   }
-
-  .banner-content .inner-wrap {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
   .banner-content {
     margin-top: -15rem;
   }
-
-  /* ---------- Blog Media ---------- */
-  .blog-media .inner-blog {
-    margin-bottom: 3rem;
-  }
-
-  .blog-media .inner-media {
+  .banner-content__wrap {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-
-  .blog-media .inner-media .inner-desc {
+  /* ---------- Blog Media ---------- */
+  .blog-media__wrap {
+    margin-bottom: 3rem;
+  }
+  .blog-media__info {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .blog-media__desc {
     text-align: justify;
   }
-
   /* ---------- Contact ---------- */
   .contact .contact-form {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-
   .contact .contact-wrap {
     margin-left: 1rem;
   }
 }
 @media (max-width: 768px) {
   /* ---------- Header ---------- */
-  .header .inner-wrap .inner-content {
+  .header__content {
     display: none;
   }
-
-  .header .inner-wrap .inner-menu .menu-bar {
+  .header__menu {
     display: block;
   }
 }
-
 @media (max-width: 998px) {
   /* ---------- Header ---------- */
-  .header .inner-wrap .inner-content {
+  .header__content {
     display: none;
   }
-
-  .header .inner-wrap .inner-menu .menu-bar {
+  .header__menu {
     display: block;
   }
-
   /* ---------- Contact ---------- */
   .contact .row .contact-info p {
     max-width: unset;
   }
 }
-
 @media (max-width: 1200px) {
   /* ---------- Header ---------- */
-  .header .inner-wrap .inner-content {
+  .header__content {
     display: none;
   }
-
-  .header .inner-wrap .inner-menu .menu-bar {
+  .header__menu {
     display: block;
   }
 }
+
+/*# sourceMappingURL=responsive.css.map */
